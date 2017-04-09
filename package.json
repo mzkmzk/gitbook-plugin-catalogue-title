@@ -1,0 +1,36 @@
+{
+  "name": "gitbook-plugin-catalogue-title",
+  "version": "1.0.3",
+  "description": "Change the title tag content for this article title + parent title + book title",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mzkmzk/gitbook-plugin-catalogue-title.git"
+  },
+  "keywords": [
+    "gitbook",
+    "plugin",
+    "catalogue-title"
+  ],
+  "author": "404k",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mzkmzk/gitbook-plugin-catalogue-title/issues"
+  },
+  "homepage": "https://github.com/mzkmzk/gitbook-plugin-catalogue-title#readme",
+  "dependencies": {
+    "cheerio": "*",
+    "circular-json": "0.3.1",
+    "github-slugid": "1.0.1",
+    "underscore": "1.8.3"
+  },
+  "engines": {
+    "gitbook": ">=3.0.0"
+  },
+  "gitbook": {
+    "properties": {}
+  }
+}
