@@ -16,6 +16,8 @@ book_name is Frontend blog
 
 the page title is basic_knowledge Javascript Frontend Frontend blog
 
+inLine Demo: <http://blog.404mzk.com>
+
 # Install
 
 npm install --save gitbook-plugin-catalogue-title
