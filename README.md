@@ -35,3 +35,6 @@ change book.json
 }
 ```
 
+# TODO
+
+1. 该插件在gitlab-ci中会导致文件为0KB 例如vip-frontend-gitbook中

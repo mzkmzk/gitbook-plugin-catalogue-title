@@ -81,11 +81,10 @@ module.exports = {
                          return element
                     })
                     .then( element => { //新title都到文件中 
-                        fs.writeFile(element.file_path,  element.content, function(err){
-                            if (err) throw err
-                        } )
+                       fs.writeFileSync(element.file_path,  element.content)
                     } )
                     .catch(err => {
+                        console.log(element)
                         console.log(err)
                     })
             })

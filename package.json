@@ -1,6 +1,6 @@
 {
   "name": "gitbook-plugin-catalogue-title",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Change the title tag content for this article title + parent title + book title",
   "main": "index.js",
   "scripts": {
